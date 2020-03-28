@@ -1,11 +1,15 @@
-package ejercicios.entidad;
+package ejercicio7.excepciones;
 
-public abstract class Persona {
-
+public class Pasaje {
 	private int dni;
 	private String nombre;
+
 	
-	public abstract float getDescuento(float totals);
+	
+	public Pasaje(int dni, String nombre) {
+		this.dni = dni;
+		this.nombre = nombre;
+	}
 
 	public int getDni() {
 		return dni;

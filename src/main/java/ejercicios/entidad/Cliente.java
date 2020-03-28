@@ -11,6 +11,11 @@ public class Cliente extends Persona{
 	public void setCuit(String cuit) {
 		this.cuit = cuit;
 	}
+
+	@Override
+	public float getDescuento(float total) {
+		return total * 0.95f;
+	}
 	
 	
 }

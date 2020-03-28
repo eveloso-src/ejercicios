@@ -18,5 +18,9 @@ public class Empleado extends Persona{
 	public static int getAporte() {
 		return aporte;
 	}
+
+	public float getDescuento(float total) {
+		return total * 0.9f;
+	}
 	
 }
