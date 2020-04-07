@@ -1,6 +1,6 @@
 package ejercicio9.jdbc;
 
-public class Emplyee {
+public class Employee {
 
 	private int id;
 	private String email;
