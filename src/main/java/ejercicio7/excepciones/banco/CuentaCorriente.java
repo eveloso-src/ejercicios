@@ -26,8 +26,10 @@ public class CuentaCorriente extends Cuenta {
 			float actual = getSaldo() ;
 			actual = actual - importe;
 			System.out.println("Saldo: " + actual);
+			setSaldo(actual);
 			return actual;
 		}
 	}
 
+	
 }
